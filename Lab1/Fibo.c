@@ -16,6 +16,9 @@ int main(){
     fib(n);
 }
 /*
-Time Complexity:O(n) Linear time
-Space Complexity:O(c) constant space
+Time Complexity:O(n) Linear time because of the for loop.
+Space Complexity:O(c) constant space as there is a constant number of variables.
+Curr holds the current fibonacci number, and prev holds the previous fibonacci number
+that is used to increment curr.
+A iterative loop is used to control how many times curr gets updated and printed.
 */

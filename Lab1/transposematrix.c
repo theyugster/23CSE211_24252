@@ -17,7 +17,13 @@ int main(){
         printf("\n");
     }
 }
+
+
 /*
-Time Complexity:O(c) constant time
-Space Complexity:O(c) constant space
+2 nested for loops get the input
+The other 2 nested for loops are responsible for transposing(A(transpose)ij=Aji).
+Time Complexity:O(c) constant time because the time taken to transpose a 3x3 matrix doesn't
+depend on the elements of the matrix itself.
+Space Complexity:O(c) constant space because it's always a 3x3 matrix, and the elements of
+the matrix have no effect on transposing.
 */

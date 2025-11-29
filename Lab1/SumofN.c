@@ -8,6 +8,9 @@ int main(){
     printf("Sum:%d\n",sumN(n));
 }
 /*
-Space Complexity:O(c)constant space
-Time Complexity: O(c)constant time
+
+The sum of the first n natural numbers is given by n*(n+1)/2
+Space Complexity:O(c)constant space because constant number of variables.
+Time Complexity: O(c)constant time because the formulaic calculation doesn't scale with 
+input
 */

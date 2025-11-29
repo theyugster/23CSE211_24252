@@ -5,6 +5,9 @@ int main(){
     printf("Sum:%d\n",(n*(n+1)/2)*(n*(n+1)/2));
 }
 /*
-Space Complexity: O(c) constant space
-Time Complexity O(c) constant time
+The formula for the sum of the first n natural cubes is the square of the sum of the 
+first n natural numbers
+Space Complexity: O(c) constant space becuase constant number of variables
+Time Complexity O(c) constant time beacuse the formulaic calcuation time doesn't
+scale with input.
 */
